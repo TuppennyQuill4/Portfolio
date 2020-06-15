@@ -152,6 +152,7 @@ main {
 }
 #bottom_text_grid {
     font-size: 25px;
+    height: 40vh;
     /* display: grid;
     grid-template-columns: 4fr 1fr 4fr; */
     
