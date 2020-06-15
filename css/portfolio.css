@@ -138,8 +138,8 @@ main {
     grid-template-columns: 1fr 5fr 1fr 5fr 2fr;
 }
 #bottom_logo {
-    margin-top: 10vh;
-    height: 50vh;
+    margin-top: 2vh;
+    width: 100%;
 }
 #Tools_list {
     list-style: none;
@@ -151,13 +151,10 @@ main {
     margin-top: 5vh;
 }
 #bottom_text_grid {
-    font-size: 25px;
+    font-size: 21px;
     /* display: grid;
     grid-template-columns: 4fr 1fr 4fr; */
     
-}
-#bottom_text_grid p {
-    height: 50vh;
 }
 
 /* footer  */
@@ -186,9 +183,10 @@ main {
 } 
 .contactus p { 
     color:white; 
-    font-size:30px;
+    font-size:25px;
     border: 2px solid white;
     padding:2px;
+    text-decoration: none;
 }
    
    
