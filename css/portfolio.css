@@ -130,7 +130,7 @@ main {
     height: 80vh;
     background-color: rgb(48, 48, 48);
     color: white;
-    font-size: 20px;
+    font-size: 19px;
 }
 #bottom_grid {
     padding-top: 12vh;
@@ -151,7 +151,7 @@ main {
     margin-top: 5vh;
 }
 #bottom_text_grid {
-    font-size: 21px;
+    font-size: 20px;
     /* display: grid;
     grid-template-columns: 4fr 1fr 4fr; */
     
@@ -310,6 +310,7 @@ main {
     }
 
     #bottom_text_grid p {
+        margin-top: -5vh;
         font-size: 15px;
         width: 30vw;
         height: 40vh;
@@ -321,13 +322,14 @@ main {
 
     /* footer  */
     .footertje {
-        background-color:#3f3f3f;
+        background-color:#ffffff00;
         color:black; 
         width:100%; 
         height:250px;
         margin-top: 4vw; 
-        display: grid; 
-        grid-template-columns:   1fr 1fr 1fr ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         }
     .footertje span {
         display: none;
@@ -336,16 +338,17 @@ main {
         display: none;
     }   
     .contactus { 
-        /* width: 150px;  */
+        text-align: center;
         height:50px;
-        margin-top:65px; 
-        display: flex; 
-        align-items: flex-end;
+        margin-top: 10px; 
+        display: grid;
+        justify-content: center;
         margin-right:2vw;
       
        
     } 
     .contactus p { 
+        text-align: center;
         color:white; 
         font-size:30px;
         border: 2px solid white;
@@ -356,22 +359,23 @@ main {
     .logobottom { 
         max-width: 175px;
         max-height: 175px;
-        display: flex; 
-        align-items: flex-end;
+        
        
        
     }
-    #textbox { 
+    #textbox {
+        text-align: center; 
         color:white; 
-        text-align: left;  
         font-size: 20px; 
-        display: inline-block; 
-        padding:30px; 
-        text-align: left; 
+        padding:10px; 
+        display: grid;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto; 
     
     }
     #textbox a {
+        text-align: center;
         color: white;
         text-decoration: none;
     }
