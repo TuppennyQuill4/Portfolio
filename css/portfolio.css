@@ -312,6 +312,7 @@ main {
     #bottom_text_grid p {
         font-size: 15px;
         width: 30vw;
+        height: 40vh;
     }
     #bottom_logo {
         margin-top: 10vh;
