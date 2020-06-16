@@ -302,6 +302,9 @@ main {
         list-style: none;
         text-decoration: none;
         font-size: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
        
     } 
     #Tools_list li {
@@ -309,16 +312,31 @@ main {
         text-align: start;
     }
 
+    #bottom_grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: none;
+    }
+
     #bottom_text_grid p {
-        margin-top: -5vh;
-        font-size: 15px;
-        width: 30vw;
+        margin-top: 2vh;
+        font-size: 20px;
         height: 40vh;
+        justify-content: center;
+        text-align: center;
+        width: 70vw;
     }
     #bottom_logo {
-        margin-top: 10vh;
-        height: 30vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        justify-content: center;
     } 
+    #bottom_div {
+        height: 120vh;
+    }
 
     /* footer  */
     .footertje {
